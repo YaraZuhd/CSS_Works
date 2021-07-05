@@ -1,0 +1,22 @@
+/* Target All Paragraphs We Use This */
+
+/* p{
+    color:aqua;
+    font-size: 25px;
+} */
+
+/* For A spacific paragraph we use dot for class
+# for id
+*/
+
+.p1 {
+    color: green;
+    font-size: medium;
+}
+
+.div1 {
+    color: bisque;
+}
+#div1 {
+    color:red;
+}

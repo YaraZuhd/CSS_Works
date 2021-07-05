@@ -1,0 +1,14 @@
+div{
+    /* Overflow - Overflow-X And Overflow-Y
+    hidden => nonvisible of overflow of the words
+    scroll => visible but you need to scroll to see the full text
+    auto => like scroll in case there's an overflow of words and if there is not an overflow it works normal
+    */
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: auto;
+    /* overflow-y: hidden; */
+}

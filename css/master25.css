@@ -1,0 +1,45 @@
+/*
+The Margin Collapse
+[1] Only Vertical Margin Collapse
+[2] Bigeer argin Wins
+[3] Margin Collapse with elements without anything between (like adding hr between the two div )
+[4] Nesting dose not prevent collapsing
+*/
+
+.parent {
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.parent .one,
+.parent .two {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.one {
+    background-color: crimson;
+}
+
+.two {
+    background-color: darkorchid;
+}
+
+.two .up {
+    background-color: palevioletred;
+    color: snow;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.two .down {
+    background-color: orchid;
+    color: snow;
+    height: 90px;
+    margin-top: 20px;
+}

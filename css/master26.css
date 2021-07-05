@@ -1,0 +1,41 @@
+/*
+CSS Variables And Trainings
+- Global Variable 
+- Local Variable
+var(Variable Name , Falback Value)
+*/
+/*Global Variable here*/
+:root {
+    --mainColor: darkviolet;
+    --mainPading: 30px;
+}
+
+.main {
+    padding: calc(5px + var(--mainPading));
+    color: var(--mainColor,aqua);
+    background-color: coral;
+}
+
+h2 {
+    padding: var(--mainPading,10px);
+    color: var(--mainColor,brown);
+    background-color: cornflowerblue;
+}
+
+p {
+    color: palegreen;
+    padding: var(--mainPading,10px);
+    border: 2px solid plum;
+}
+
+a:hover {
+    color: darkmagenta;
+
+}
+
+.local{
+    --mainColor:yellow;
+    /*local variable */
+    background-color: var(--mainColor);
+    color: blue;
+}

@@ -1,0 +1,29 @@
+/*
+Transition
+- Duration
+- property
+- Dely
+- Timing Function
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.one {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* transition-duration: 3s;
+    transition-delay: 1s;
+    transition-property: width;
+    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); */
+    transition: width 3s, height 1s;
+    transition: all 0.5s 2s linear;
+}
+
+.one:hover {
+    /* margin-left: 20px; */
+    width: 280px;
+    /* margin-top: 20px; */
+}

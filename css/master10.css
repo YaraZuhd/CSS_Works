@@ -1,0 +1,55 @@
+/* Text - Alignmen
+Direction
+Vertical - Alignmen
+Decoration And Transform
+Text - Overflow
+*/
+
+div{
+    background-color: powderblue;
+     /* text-align: center; */
+     direction: ltr;
+    vertical-align: middle; 
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    width: 350px;
+    white-space: nowrap; 
+    overflow: hidden; /* hide the overflow text*/
+    text-overflow: ellipsis;  
+    /* make the overflow text take a dot shape */
+    /* word-break: break-word; */ 
+    /* word break => break the word from the place when the overflow happend8*/ 
+    /* text-indent: 120px; the space before the word written */
+    /* text-decoration:underline; */
+    text-transform: capitalize;
+    line-height: 1.6;
+}
+
+/* div .one{
+    background-color: powderblue;
+    direction: ltr;
+    vertical-align: middle; 
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    width: 350px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+    text-transform: capitalize;
+    line-height: 1.6;
+} */
+
+div:hover{ 
+    /*make an action*/
+    overflow: visible;
+    /*Hidden text appears when you place your mouse pointer at dots*/
+}
+
+a{
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(71, 71, 243);
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}

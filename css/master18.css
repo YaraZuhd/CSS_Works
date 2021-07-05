@@ -1,0 +1,39 @@
+/* 
+Pseudo Elements - First Letter, First Line, Selection
+*/
+
+/* 
+First Solution To make The First Line In The First Paragraph Big And Has A Background By Using The Span In This Letter . This Solution Not Efficent
+*/
+.one span {
+    background-color: blue;
+    color: snow;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* 
+The Second Solution Is Using Pseudo Elements. Here I Will Use The Second Paragraph
+If I Want To Use The Pseudo Class I Use One : But If I Want To Use Pseudo Elements I Use :: 
+*/
+
+.two::first-letter {
+    background-color: blue;
+    color: snow;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.three::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+::selection {
+    background-color: gold;
+    color: black;
+}

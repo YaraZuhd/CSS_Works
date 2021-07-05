@@ -1,0 +1,30 @@
+/* Groupping multiple selectors sharing some proparties*/
+.one{
+    border-bottom: 5px,solid,skyblue;
+    color: skyblue;
+}
+
+.two{
+    color: deeppink;
+    border-bottom: 5px,solid,deeppink;
+}
+
+.three{
+    color:plum;
+    border-bottom: 5px,solid,plum;
+}
+
+.four{
+    color: lemonchiffon;
+    border-bottom: 5px,solid,lemonchiffon;
+}
+
+.one,
+.two,
+.three,
+.four,
+p{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(196, 230, 243)
+}

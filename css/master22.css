@@ -1,0 +1,30 @@
+/*
+The Box Model And Box Sizing
+*/
+
+
+/* i dont know why this is not working with me (it must do that if i want to do box sizing to every elements) */
+
+
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+.parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.one {
+    background-color: deeppink;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px solid palevioletred;
+    box-sizing: border-box;
+}

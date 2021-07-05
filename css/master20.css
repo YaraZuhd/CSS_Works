@@ -1,0 +1,38 @@
+/* 
+Vendor Prefixes 
+
+-chrome
+-firefox
+-opera 
+-IE ,Edge
+-safari 
+
+[1] new css feature appeared
+[2] browser test the feature in version x
+[3] broswer add prefixe to give the devlopers the ability to use it
+[4] the feature is fully supported in version y no need for prefix
+
+prefix for border-radius: 
+- webkit => chrome , safari and new opera version.
+- moz => firefox
+- ms => IE ,Edge
+- o => the previous versions of opera
+
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    /* border-radius: 50%; */
+    margin: 20px auto;
+    /* outline: 3px solid salmon; */
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+/* .class {
+    border-radius: 10px;
+
+} */

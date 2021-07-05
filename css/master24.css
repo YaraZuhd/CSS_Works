@@ -1,0 +1,8 @@
+/*
+!Important Declaration And Use Cases
+*/
+
+.one {
+    background-color: cadetblue !important;
+    /* override the inline style in html */
+}

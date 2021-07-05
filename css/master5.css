@@ -1,0 +1,16 @@
+div{
+    /* Display non  => nonvisible
+    ِAnd The visible element takes the place of the hidden element
+    */
+    background-color: thistle;
+    margin: 10px 0;
+    /* display: none; */
+}
+.first{
+    /*
+    visibility: hidden (nonvisible)
+    The visible element dose not takes the place of the hidden element
+    */
+    background-color: tan;
+    visibility: hidden;
+}

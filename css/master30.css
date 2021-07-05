@@ -1,0 +1,15 @@
+/*
+Pointer Events And Caret Color
+*/
+
+a:hover {
+    color: red;
+}
+
+input {
+    caret-color: red;
+}
+
+a {
+    pointer-events: none;
+}

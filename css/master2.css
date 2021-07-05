@@ -1,0 +1,37 @@
+div{
+    background-color: #DDD;
+    /* Top Right Bottom Left*/
+    /* padding is inner margin and it's not accepet negative
+    10px 10px 10px 10px
+    padding:10px*/
+
+    /* Top Right Bottom Left*/
+    /* 10px 20px 10px 20px
+    padding:10px 20px*/
+
+    /* Top Right Bottom Left*/
+    /* 10px 20px 15px 20px
+    padding:10px 20px 15px*/
+    /* padding: 10px 10px 10px 20px; */
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+
+    /*Margin like padding but it's outer margin out of background and it's accepet the negative value */
+    margin: 10px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px; */  
+
+    /* Now Border like padding and margin (It's between padding and margin)*/
+    border-width: 5px;
+    border-color: blue green yellow red;
+    border-style: solid dotted dashed double;
+
+
+
+}

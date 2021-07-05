@@ -1,0 +1,8 @@
+div{
+    /*Outline Now which is Edges outside the element (Nit useful in my opinion)*/
+    background-color: darksalmon;
+    width: 350px;
+    padding: 10px;
+    border: 10px solid rgb(84, 92, 148);
+    outline: 10px solid rgb(86, 184, 133);
+}

@@ -1,0 +1,47 @@
+/*
+Blocked
+
+-Take Full Width If No Width Found 
+- Add Line Brak
+- Respect padding ,margin , width , height and everything
+
+Inline
+
+- Do Not Add Line Break
+- Do Not Respect Width and Hieght
+- Respect Padding And Margin [Just From Right & Left]
+- Allow Elements Before & After It
+
+Inline-Blocked
+
+- Allow Elements Before & After It
+- Respect padding ,margin , width , height and everything
+- 
+
+*/
+
+div{
+    background-color: indianred;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+span{
+    background-color: peachpuff;
+    padding: 30px;
+    margin: 20px;
+    display: block;
+    width: 200px;
+    height: 15px;
+}
+
+q{
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}

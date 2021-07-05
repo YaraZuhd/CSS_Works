@@ -1,0 +1,11 @@
+/* Box Shadow And Examples 
+H-shadow | V- shadow | Blur | Spread | Color | Inside Or Outside
+*/
+
+div {
+    padding: 20px;
+    background-color: red;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 10px 10px 5px 8px rgba(248, 139, 75, 0.76);
+}

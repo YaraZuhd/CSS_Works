@@ -1,0 +1,54 @@
+/*
+Pseudo Classes
+*/
+
+.one{
+    background-color: coral;
+    color: snow;
+}
+
+.two{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+.ch1:checked + label {
+    color: purple;
+    
+}
+
+a:visited{
+    color:skyblue;
+}
+
+div:empty {
+    border: 5px dashed gold;
+}
+
+.inp {
+    border: 4px solid purple;
+}
+
+.inp:focus {
+    border-style: double;
+    outline: none;
+}
+
+/* :empty {
+    border: 5px dashed gold;
+} */
+
+/* .ch1:checked {
+    display: none;
+    
+} */

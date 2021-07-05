@@ -1,0 +1,12 @@
+div{
+    /*Dimensions - Width And Height*/
+    background-color: darkred;
+    color:gold;
+    text-shadow: 3px 4px 2px rgb(68, 68, 250);
+    /* display:inline-block; */
+    /* min-width: 280px;
+    max-width: 280px;
+    min-height: 10px;
+    max-height: 20px; */
+    width: fit-content;
+}

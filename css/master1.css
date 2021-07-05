@@ -1,0 +1,12 @@
+div{
+    background-color: coral; /*Color Name*/
+    background-color: rgb(100, 150, 200); /* Red Green Blue*/
+    background-color: rgba(50, 100, 98, 0.5); /*Red Green Blue & Alpha for (الشفافية)*/
+    background-color:#56A9B3 ; /* Hexa Code For Color*/
+    background-image: url( img/Back5.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; the img will move when you move (fixed) but if you would not to move it use scroll */
+    /* background-position: 30% 20%; */
+    background-size: contain;
+    background-attachment: fixed;
+}

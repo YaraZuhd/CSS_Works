@@ -1,0 +1,16 @@
+/*Mouse Cursor*/
+div button{
+    border: none;
+    color: blueviolet;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+}
+
+div span{
+    cursor: pointer;
+}
+
+p{
+    cursor: grab;
+}

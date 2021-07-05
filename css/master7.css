@@ -1,0 +1,5 @@
+div .p1{
+    /*Nesting*/
+    background-color: blueviolet;
+    color: deeppink;
+}
